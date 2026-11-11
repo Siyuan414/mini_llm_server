@@ -1,0 +1,48 @@
+# ── Large generated artifacts — reproduce via tools/ ─────────────────────────
+# Globs, not exact names: weights/ weights_3b/ onnx/ onnx_3b/ reference/ ...
+# A bare `weights/` left weights_3b (6.8 GB) untracked-but-not-ignored, one
+# `git add -A` away from being in the history forever.
+weights*/
+onnx*/
+reference*/
+engine*/
+
+*.trt
+*.onnx
+*.onnx_data
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# Benchmark prompt corpora (regenerate or supply your own)
+prompts.txt
+prompts200.txt
+
+# ── Python ───────────────────────────────────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# ── C++ / CUDA build ─────────────────────────────────────────────────────────
+build/
+*.o
+*.so
+*.ncu-rep
+compile_commands.json
+
+# ── Editors / OS ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Logs and scratch ─────────────────────────────────────────────────────────
+*.log
+nohup.out
+
+# NOTE: benchmarks/*.json IS tracked on purpose — those are results, and
+# `bench_vs_vllm.py --compare` reads them.

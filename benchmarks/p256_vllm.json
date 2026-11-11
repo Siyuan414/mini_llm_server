@@ -1,0 +1,16 @@
+{
+  "name": "vllm_p256",
+  "url": "http://localhost:8000/v1/completions",
+  "requests": 64,
+  "failed": 0,
+  "concurrency": 32,
+  "max_tokens": 64,
+  "prompt_tokens": 256,
+  "tokens": 4032,
+  "wall_s": 0.9641878929996892,
+  "throughput_tok_s": 4181.7575487865,
+  "ttft_p50_ms": 122.67910099944856,
+  "ttft_p95_ms": 160.7473720005146,
+  "tpot_p50_ms": 5.612957870961245,
+  "tpot_mean_ms": 5.810738277469524
+}

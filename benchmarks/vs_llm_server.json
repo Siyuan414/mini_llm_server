@@ -1,0 +1,15 @@
+{
+  "name": "llm_server",
+  "url": "http://localhost:8080/v1/completions",
+  "requests": 128,
+  "failed": 0,
+  "concurrency": 32,
+  "max_tokens": 64,
+  "tokens": 8192,
+  "wall_s": 1.4234152549997816,
+  "throughput_tok_s": 5755.172267000368,
+  "ttft_p50_ms": 61.30602300072496,
+  "ttft_p95_ms": 66.52833099997224,
+  "tpot_p50_ms": 4.574571095237467,
+  "tpot_mean_ms": 4.577376362226753
+}

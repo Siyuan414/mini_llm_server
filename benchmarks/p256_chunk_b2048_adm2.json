@@ -1,0 +1,16 @@
+{
+  "name": "chunk_b2048_adm2",
+  "url": "http://localhost:8080/v1/completions",
+  "requests": 64,
+  "failed": 0,
+  "concurrency": 32,
+  "max_tokens": 64,
+  "prompt_tokens": 256,
+  "tokens": 4096,
+  "wall_s": 1.3191265969999222,
+  "throughput_tok_s": 3105.084841224107,
+  "ttft_p50_ms": 96.807570999772,
+  "ttft_p95_ms": 297.36131199979354,
+  "tpot_p50_ms": 8.263653587301445,
+  "tpot_mean_ms": 7.689831452877356
+}

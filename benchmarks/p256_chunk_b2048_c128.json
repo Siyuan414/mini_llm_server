@@ -1,0 +1,16 @@
+{
+  "name": "chunk_b2048_c128",
+  "url": "http://localhost:8080/v1/completions",
+  "requests": 64,
+  "failed": 0,
+  "concurrency": 32,
+  "max_tokens": 64,
+  "prompt_tokens": 256,
+  "tokens": 4096,
+  "wall_s": 1.2790912209998169,
+  "throughput_tok_s": 3202.273561691959,
+  "ttft_p50_ms": 245.51805500004775,
+  "ttft_p95_ms": 251.14689800011547,
+  "tpot_p50_ms": 6.1263348571368885,
+  "tpot_mean_ms": 6.22828501438473
+}
